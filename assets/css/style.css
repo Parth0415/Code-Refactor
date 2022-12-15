@@ -3,10 +3,7 @@
     padding: 0;
     margin: 0;
 }
-.box {
-    display:flex;
-    flex-wrap:wrap 
-}
+
 body {
     background-color: #d9dcd6;
 }
@@ -23,7 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.header h1 .horiseon {
     color: #d9dcd6;
 }
 
@@ -88,77 +85,25 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead {
+/* combined all 3 individual different sections of class benefits into 1 style as it determine same style*/
+.benefit{
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+/* combined all 3 individual different sections of class benefits h3 into 1 style as it determine same style*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+/*combined all 3 individual images properties into 1 format as it determine same style */
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    display: block;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    display: block;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    display: block;
+/* combined all 3 individual main section element properties into 1 format as it determine same style */
+main section { 
+     display: block;
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -178,22 +123,13 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
-.search-engine-optimization h2 {
+/* combined all 3 individual different sections of class content h2 into 1 style as it determine same format*/
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* I removed footer by display none attribute as it's not showing on screenshot */
+/* I removed footer by display none attribute as it's not showing on the screenshot */
 .footer {
     display: none;
     padding: 30px;
@@ -201,7 +137,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* changed footer from h3 to h4 to manage the flow of the structure */
+.footer h4 {
     font-size: 20px;
 }
