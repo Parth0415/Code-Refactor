@@ -22,7 +22,7 @@ By building this project i learned some new skills which contains:
 
 ## Usage
 
-assets\images\Screenshot of the final website.png
+![project](./assets/images/Screenshotofthefinalwebsite.png "Project1")
 
 ## LICENSE
 Please refer to the LICENSE in the repository.
