@@ -23,7 +23,7 @@ https://parth0415.github.io/First-assignment/
 
 ## Usage
 
-![project](./assets/images/Screenshotofthefinalwebsite.png "Project1")
+![project](./assets/images/First-assignment.png "Project1")
 
 ## LICENSE
 Please refer to the LICENSE in the repository.
